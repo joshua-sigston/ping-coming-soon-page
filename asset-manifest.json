@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ping-coming-soon-page/static/css/main.3aa6c359.chunk.css",
+    "main.js": "/ping-coming-soon-page/static/js/main.a1e0217c.chunk.js",
+    "main.js.map": "/ping-coming-soon-page/static/js/main.a1e0217c.chunk.js.map",
+    "runtime-main.js": "/ping-coming-soon-page/static/js/runtime-main.bbf0dc86.js",
+    "runtime-main.js.map": "/ping-coming-soon-page/static/js/runtime-main.bbf0dc86.js.map",
+    "static/js/2.2c45a582.chunk.js": "/ping-coming-soon-page/static/js/2.2c45a582.chunk.js",
+    "static/js/2.2c45a582.chunk.js.map": "/ping-coming-soon-page/static/js/2.2c45a582.chunk.js.map",
+    "static/js/3.0580f13e.chunk.js": "/ping-coming-soon-page/static/js/3.0580f13e.chunk.js",
+    "static/js/3.0580f13e.chunk.js.map": "/ping-coming-soon-page/static/js/3.0580f13e.chunk.js.map",
+    "index.html": "/ping-coming-soon-page/index.html",
+    "static/css/main.3aa6c359.chunk.css.map": "/ping-coming-soon-page/static/css/main.3aa6c359.chunk.css.map",
+    "static/js/2.2c45a582.chunk.js.LICENSE.txt": "/ping-coming-soon-page/static/js/2.2c45a582.chunk.js.LICENSE.txt",
+    "static/media/illustration-dashboard.f9aaf3db.png": "/ping-coming-soon-page/static/media/illustration-dashboard.f9aaf3db.png",
+    "static/media/logo.7e09371f.svg": "/ping-coming-soon-page/static/media/logo.7e09371f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bbf0dc86.js",
+    "static/js/2.2c45a582.chunk.js",
+    "static/css/main.3aa6c359.chunk.css",
+    "static/js/main.a1e0217c.chunk.js"
+  ]
+}

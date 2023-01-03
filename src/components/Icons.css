@@ -1,0 +1,44 @@
+.icons_main_container {
+    margin-top: 3em;
+    align-items: center;
+    width: 100%;
+    gap: 1em;
+}
+
+.icons_container {
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.icon_border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: .8rem;
+    padding: .5em .4em;
+    border: 1px solid rgba(150, 150, 150, .5);
+    border-radius: 50%;
+}
+
+.icon_border i {
+    font-size: .6rem;
+    color: var(--clr-blu);
+}
+
+.icons_main_container small {
+    font-size: .5rem;
+}
+
+.icon_border,
+.icon_border i {
+    transition: var(--transition);
+}
+
+.icon_border:hover {
+    background-color: var(--clr-blu);
+}
+
+.icon_border i:hover {
+    color: white;
+    cursor: pointer;
+}

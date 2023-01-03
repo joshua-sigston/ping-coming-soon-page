@@ -1,0 +1,13 @@
+.data_chart_container {
+    margin-top: 2em;
+}
+
+.data_chart {
+    width: 20rem;
+}
+
+@media screen and (min-width: 900px) {
+    .data_chart {
+        width: 100%;
+    }
+}

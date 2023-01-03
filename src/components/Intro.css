@@ -1,0 +1,131 @@
+.intro_container {
+    align-items: center;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+.intro_container img {
+    width: 2.5rem;
+}
+
+.statement_container {
+    text-align: center;
+}
+
+.statement_container p {
+    color: var(--clr-gry);
+}
+
+.statement_container span {
+    color: black;
+    font-weight: var(--fw-bold);
+}
+
+.statement_container small {
+    font-size: .575rem;
+}
+
+/* form section */
+
+.notify_me_container {
+    gap: .5em;
+    width: 100%;
+    justify-content: center;
+}
+
+.input_container {
+    align-items: center;
+}
+
+.input_container input, 
+.btn {
+    border-radius: 1rem;
+    border: none;
+    font-size: .575rem;
+}
+
+.input_container input {
+    padding: 1em 2em;
+    width: 10rem;
+    border: 1px solid var(--clr-pal-blu);
+}
+
+.btn {
+    padding: 1em 0;
+    background-color: var(--clr-blu);
+    color: white;
+    width: 12rem;
+
+    -webkit-box-shadow: 5px 5px 15px 5px hsl(223, 100%, 88%); 
+    box-shadow: 5px 5px 15px 5px hsl(223, 100%, 88%);
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+/* error message */
+.errorMessage {
+    color: var(--clr-lght-red);
+    font-size: .5rem;
+    display: none;
+}
+
+input:invalid {
+    border-color: var(--clr-lght-red);;
+}
+
+input:invalid ~ .errorMessage {
+    display: block;
+}
+
+
+@media screen and (min-width: 900px) {
+    .intro_container {
+        gap: 1em;
+        margin-top: 0;
+    }
+
+    .intro_container img {
+        width: 4rem;
+    }    
+
+    .intro_container {
+        font-size: 2.3rem;
+    }
+
+    .statement_container {
+        line-height: 1.2;
+    }
+
+    .statement_container small {
+        font-size: 1rem;
+    }
+
+    .notify_me_container {
+        min-width: 30rem;
+        gap: 1em;
+    }
+    
+    .notify_me_container input, .btn {
+        font-size: .9rem;
+        border-radius: 2rem;
+        padding: .9em;
+    }
+
+    .input_container {
+        flex: 1;
+    }
+
+    .input_container input {
+        width: 100%;
+    }
+
+    .errorMessage {
+        width: 100%;
+    }
+
+    .btn {
+        flex: .5;
+    }
+}
